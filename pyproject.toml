@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mailu-man-mini"
+version = "0.1.0"
+description = "Mini mailing lists manager for mailu"
+authors = ["Lukas <lukas@infornautik.de>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0"
+pydantic = "^1"
+httpx = "^0"
+aiosmtpd = "^1.2.4"
+aiofiles = "^0.6.0"
+aiosmtplib = "^1.1.4"
+mako = "^1.1.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+uvicorn = "^0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

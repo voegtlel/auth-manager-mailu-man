@@ -1,0 +1,8 @@
+Mailing List Approval - ${subject}
+Hello,
+
+a message from ${from_name} ${from} needs approval.
+Click the following link to approve the mail: ${config.frontend_base_url}${id}
+
+Best,
+Your Admins
